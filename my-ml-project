@@ -1,0 +1,35 @@
+🏠 Project Title: House Price Prediction Using Machine Learning
+📄 Description:
+This project focuses on building a predictive machine learning model to estimate house prices based on key property features such as area, number of bedrooms, bathrooms, stories, and furnishing status. The dataset is preprocessed using encoding techniques for categorical variables and scaling for numerical features. The model is built using a regression pipeline with Ridge Regression to prevent overfitting and enhance generalization.
+
+The goal is to help real estate businesses, agents, and buyers get accurate price predictions for residential properties, making the property valuation process more data-driven and efficient.
+
+🔧 Key Steps:
+Data Cleaning and Preprocessing
+
+Encoding categorical variables (e.g., furnishingstatus)
+
+Feature Scaling using StandardScaler
+
+Model Building with Ridge() regression inside a Pipeline
+
+Model Evaluation using R² Score and Error Metrics
+
+Model Interpretation: Intercept and Coefficients
+
+Visualization of Results (optional)
+
+📊 Features Used:
+area – Size of the property
+
+bedrooms – Number of bedrooms
+
+bathrooms – Number of bathrooms
+
+stories – Number of floors
+
+furnishingstatus – Type of furnishing (e.g., furnished, semi-furnished, unfurnished)
+
+🧠 Target Variable:
+price – Selling price of the property
+
